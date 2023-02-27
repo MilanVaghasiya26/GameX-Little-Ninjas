@@ -1,0 +1,98 @@
+
+//body{
+//	margin: 0;
+//	padding: 0;
+//	background-color: white;
+
+//	.main-container{
+
+
+//		display: flex;
+//		flex-direction: column;
+//		justify-content: center;
+//		align-items: center;
+//		background-size: cover;
+//		background-position: center center;
+//		height: 100vh;
+//		//background-image: url("../../../../assets/images/boardimg.jpg");
+//		background-repeat: no-repeat;
+//		background-size: contain;
+             
+
+//		.margin-top100{
+//			margin-top: 100px;
+
+//		}
+		
+
+//      	.margin-top {
+//			margin-top: 10px;
+//		}
+		
+	
+//		.flex {
+
+//			display: flex;
+//			justify-content: flex-start;
+	
+//			.box {
+//				background-color: rgb(250, 235, 215); 
+//				color: black;
+//				border: 1px solid black;
+//				height: 80px;
+//				display: flex;
+//				justify-content: center;
+//				align-items: center;
+//				width: 80px;
+//				border-radius: 20px;
+//				border: none;
+				
+	
+//				.images{
+//					width:80%;
+//					height: 80%;
+	
+//				}
+				
+//				.img-size{
+//					width: 50%;
+//				}
+				
+//			}
+//			.margin-left20 {
+//				margin-left: 20px;
+//			}
+//		}
+	
+//	}
+//}
+
+//.red-block{
+//	background-color: red !important;
+//}
+body{
+	margin: 0;
+	padding: 0;
+
+
+	.math-btn-blue{
+		font-family: 'Fredoka One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 25px;
+		line-height: 54px;
+
+		color: #5259FF;
+		 
+		text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+	}
+	.oprators{
+		font-family: 'Fredoka One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 45px;
+		
+
+	}
+}

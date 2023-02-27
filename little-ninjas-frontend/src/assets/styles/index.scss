@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+	font-family: 'Fredoka One', cursive;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	user-select: none;
+
+	
+.main-Container {
+    background-image: url('../images/background_img.png');
+}
+.module-container{
+	background-image: url('../images/Module-bg.png');
+}
+
+.Homepage-wrapper {
+    background-image: url('../images/Username-bg.png');
+}
+.popup-background{
+    background-image: url('../images/popup-back.png');
+}
+
+}

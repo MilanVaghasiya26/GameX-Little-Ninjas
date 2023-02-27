@@ -1,0 +1,38 @@
+@media only screen and (max-width:800px) {
+    .responsive--width{
+        width: 210px;
+        height: 43px; 
+    }
+    .responsive--identify{
+        top: -40px;
+    }
+    .responsive--counting{
+        top: -49px;
+    }
+    .responsive--mathoperation{
+        top: -47px;
+    }
+    .responsive--substract{
+        top: -37px;
+    }
+    .responsive--divide{
+        top: -31px;
+    }
+}
+@media only screen and (min-width:1184px) {
+    .responsive--identify{
+        top: -70px;
+    }
+    .responsive--counting{  
+        top: -82px;
+    }
+    .responsive--mathoperation{
+        top: -80px;
+    }
+    .responsive--substract{
+        top: -67px;
+    }
+    .responsive--divide{
+        top: -64px;
+    }
+}

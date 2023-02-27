@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+* {
+	font-family: $font;
+}
+
+body {
+	@include margin(0);
+	@include padding(0);
+	// background-color: $pure-black-color;
+	font-size: $font-size-browser-default;
+	font-weight: $font-regular;
+	color: $white-color;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+// * {
+//     -webkit-user-select: none;
+//     -khtml-user-select: none;
+//     -moz-user-select: -moz-none;
+//     -o-user-select: none;
+//     user-select: none;
+// }
+
+::-webkit-scrollbar {
+	width: 5px;
+	border-radius: $border-radius-default;
+	box-shadow: inset 0 0 4px -0.5px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: $border-radius-default;
+	background-color: $gray-color;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	@include padding(0);
+}
+
+ul {
+	list-style: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	@include margin(0);
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+textarea {
+	resize: vertical;
+
+	&::-webkit-scrollbar {
+		width: 5px;
+		border-radius: $border-radius-default;
+		box-shadow: inset 0 0 4px -0.5px rgba(0, 0, 0, 0.2);
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		border-radius: $border-radius-default;
+		background-color: rgba($color: #ffffff, $alpha: 0.5);
+	}
+}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+
+a:hover,
+a:active,
+a:focus {
+	outline: 0;
+}
+
+input {
+	-webkit-appearance: none;
+}
+
+button {
+	&:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+}

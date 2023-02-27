@@ -1,0 +1,61 @@
+Identify Feature
+
+GET : API For All Mock Data 
+http://localhost:3000/identify/all-data
+https://334d-27-54-170-36.in.ngrok.io/identify/all-data
+
+
+GET : Get JSON For specific question like apple 
+http://localhost:3000/identify/specific/apple
+https://334d-27-54-170-36.in.ngrok.io/identify/specific/apple
+
+
+GET : API For generate random data 
+http://localhost:3000/identify/get-random-data
+https://334d-27-54-170-36.in.ngrok.io/identify/get-random-data
+
+
+POST : Validation API for options
+http://localhost:3000/identify/validate
+https://334d-27-54-170-36.in.ngrok.io/identify/validate
+
+
+
+POST : Post API for store data in the database
+http://localhost:3000/identify/postdata
+
+
+Counting Feature
+
+GET : API For All Mock Data 
+http://localhost:3000/counting/all-data
+https://334d-27-54-170-36.in.ngrok.io/counting/all-data
+
+GET : Get JSON For specific question like apple 
+http://localhost:3000/counting/specific/apple
+https://334d-27-54-170-36.in.ngrok.io/counting/specific/apple
+
+
+GET : API For generate random data 
+http://localhost:3000/counting/get-random-data
+https://334d-27-54-170-36.in.ngrok.io/counting/get-random-data
+
+
+POST : Validation API for options
+http://localhost:3000/counting/validate
+
+POST : Post API for store data in the database
+http://localhost:3000/counting/postdata
+
+
+
+Maths Feature
+
+GET : API For All Mock Data
+http://65.2.123.158:3001/maths/all-data
+
+GET : API For generate random data
+http://65.2.123.158:3001/maths/get-random-data
+
+POST : Validation API for options
+http://65.2.123.158:3001/maths/validate 
